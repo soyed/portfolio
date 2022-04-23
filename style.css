@@ -37,7 +37,6 @@ a:link,a:visited{
     align-items: center;
     padding: 2rem;
     width: 100%;
-    /* color: var(--color-background); */
 }
 
 .site-info p {
