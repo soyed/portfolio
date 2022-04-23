@@ -1,0 +1,23 @@
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --color-primary: ;
+    --color-secondary: ;
+    --color-general: ;
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+    min-height: 100vh;
+}

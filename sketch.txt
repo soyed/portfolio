@@ -1,0 +1,15 @@
+Samuel Oyediran - Bold - h1
+Software Developer | New Grad from Uottawa - p
+
+Short Intro - p
+
+New graduate in computer engineering with 1 year of industry experience through internships. I am passionate about problem-solving using the technologies I have learnt by building solutions through personal projects and at work. I am currently learning backend technologies while improving my frontend skills. I am actively seeking a full time software engineer role.
+
+Links - h3
+ - 3 a tag -> redirect to the website in a new tab
+
+github | LinkedIn | Twitter
+
+Resume - h3
+    - download resume - a - link to pdf file
+
