@@ -7,8 +7,8 @@
 :root{
     font-size: 62.5%;
 
-    --color-primary: ;
-    --color-secondary: ;
+    --color-background: #3A405A;
+    --color-card-bg:#E9AFA3;
     --color-general: ;
 }
 
@@ -17,7 +17,147 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+a:link,a:visited{
+    text-decoration: none;
+}
+
 .container{
     display: flex;
     min-height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-background);
 }
+
+.site-info{
+    background-color: var(--color-card-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    /* color: var(--color-background); */
+}
+
+.site-info p {
+    letter-spacing: 0.1rem;
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.card--section{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50rem;
+    height: 40rem;
+    background-color: var(--color-card-bg);
+    border-radius: 2rem;
+    padding: 3rem;
+    color: #333232;
+}
+
+.card__header, .card__summary, .card__links{
+    width: 100%;
+    margin-bottom: 3rem;
+    display: flex;
+}
+
+.card__header{
+    flex-direction: column;
+    
+}
+
+.card__header h1 {
+    font-weight: 900;
+    letter-spacing: 0.15rem;
+    margin-bottom: 1rem;
+}
+
+.card__header p {
+    font-size: 1.4rem;
+}
+
+.card__summary{
+    flex-direction: column;
+}
+.card__summary h2{ 
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card__summary ul{
+    margin: 0;
+    padding: 0;
+    padding : 0 2rem;
+}
+
+.card__summary ul li {
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+}
+
+.summary__bold{
+    font-weight: bold;
+}
+
+.card__links{
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social--link i {
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background-color: var(--color-background);
+    display: flex;
+    color: var(--color-card-bg);
+    font-size: 2rem;
+}
+
+.resume--link  {
+    width: 10rem;
+    height: 4rem;
+    background-color: var(--color-background);
+    color: var(--color-card-bg);
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.resume--link i {
+    margin-right: 1rem;
+}
+
+.resume--link span{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 550px) {
+    .card{
+        width: 90%;
+        height: auto;
+        padding: 3rem 2rem;
+    }
+}
+
+
+
+
+
+
