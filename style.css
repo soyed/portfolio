@@ -19,7 +19,6 @@ body{
 
 a:link,a:visited{
     text-decoration: none;
-    
 }
 
 
@@ -84,7 +83,7 @@ a:link,a:visited{
 }
 
 .card__header h1 a, .company {
-    color: var(--color-background)
+    color: var(--color-background);
 }
 
 .company{
@@ -93,7 +92,7 @@ a:link,a:visited{
 
 
 .card__header h1 a:hover,
-.card__header h1 a:hover,
+.card__header h1 a:active,
 .company:hover, .company:active{
     color: black;
 }
